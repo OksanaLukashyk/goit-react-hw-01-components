@@ -1,0 +1,42 @@
+.statisticsSection {
+  max-width: 500px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #b6f5f3;
+  box-shadow: 0px 10px 33px 9px rgba(86, 156, 148, 1);
+  text-align: center;
+}
+
+.statsCardTitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: darkslateblue;
+  text-transform: uppercase;
+}
+
+.statisticsCard {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.statListItem {
+  width: 80px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  border-radius: 10px;
+  box-shadow: rgb(255, 255, 255) -1px -1px 1px, rgb(186, 204, 203) 2px 2px 2px;
+
+  color: white;
+}
+
+.statPercentage {
+  font-weight: bold;
+  font-size: 18px;
+}
